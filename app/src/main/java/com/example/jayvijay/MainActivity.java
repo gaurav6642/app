@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         wv = findViewById(R.id.web_view);
 
-        wv.loadUrl("http://rohitomjewellers.com");
+        wv.loadUrl("http://jaivijaybookcentre.com/jaivijay");
         wv.setWebViewClient(new WebViewClient());
         WebSettings ws = wv.getSettings();
         ws.setJavaScriptEnabled(true);
